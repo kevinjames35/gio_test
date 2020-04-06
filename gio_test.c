@@ -1,3 +1,7 @@
+//build this file through following command
+//gcc gio_test.c -Wall -O2 `pkg-config --cflags --libs glib-2.0` -o gio
+//this code is using glib to copt a file to anothoer folder.
+//main purpose is to practice using glib
 #include <glib.h>
 #include <stdio.h>
 
